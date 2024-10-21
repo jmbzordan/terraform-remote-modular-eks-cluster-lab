@@ -18,10 +18,10 @@ No providers.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_eks_cluster"></a> [eks\_cluster](#module\_eks\_cluster) | ./modules/eks-cluster | n/a |
-| <a name="module_eks_mng"></a> [eks\_mng](#module\_eks\_mng) | ./modules/eks-managed-node-group | n/a |
-| <a name="module_lb_controller"></a> [lb\_controller](#module\_lb\_controller) | ./modules/eks-load-balancer-controller | n/a |
-| <a name="module_vpc"></a> [vpc](#module\_vpc) | ./modules/vpc | n/a |
+| <a name="module_eks_cluster"></a> [eks\_cluster](#module\_eks\_cluster) | git::https://github.com/jmbzordan/module-eks-cluster-terraform.git | n/a |
+| <a name="module_eks_mng"></a> [eks\_mng](#module\_eks\_mng) | git::https://github.com/jmbzordan/module-eks-managed-node-group-terraform.git | n/a |
+| <a name="module_lb_controller"></a> [lb\_controller](#module\_lb\_controller) | git::https://github.com/jmbzordan/module-eks-lb-controller-terraform.git | n/a |
+| <a name="module_vpc"></a> [vpc](#module\_vpc) | git::https://github.com/jmbzordan/module-eks-vpc-terraform.git | n/a |
 
 ## Resources
 
